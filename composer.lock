@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1f71927086b8d3114cd95f25bea927c1",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "eaglewu/swoole-ide-helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wudi/swoole-ide-helper.git",
+                "reference": "d03e7e2d8ffd12e054555cae6dda8b2b3683d934"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wudi/swoole-ide-helper/zipball/d03e7e2d8ffd12e054555cae6dda8b2b3683d934",
+                "reference": "d03e7e2d8ffd12e054555cae6dda8b2b3683d934",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "eagle",
+                    "email": "eaglewudi@gmail.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "Swoole IDE Helper, to improve auto-completion",
+            "keywords": [
+                "autocomplete",
+                "codeintel",
+                "helper",
+                "ide",
+                "netbeans",
+                "phpdoc",
+                "phpstorm",
+                "sublime",
+                "swoole"
+            ],
+            "time": "2019-04-02T09:53:11+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "eaglewu/swoole-ide-helper": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-swoole": "^4.0.0"
+    },
+    "platform-dev": []
+}

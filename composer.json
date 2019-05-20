@@ -1,0 +1,29 @@
+{
+  "name": "swoole-foundation/swoole-pool",
+  "description": "generic swoole client pool",
+  "type": "library",
+  "keywords": [
+    "swoole",
+    "pool",
+    "coroutine"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xialeistudio",
+      "email": "xialeistudio@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "ext-swoole": "^4.0.0"
+  },
+  "require-dev": {
+    "eaglewu/swoole-ide-helper": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "swoole\\foundation\\pool\\": "src/"
+    }
+  }
+}
